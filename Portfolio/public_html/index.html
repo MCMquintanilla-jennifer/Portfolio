@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+	File:		 index.html
+	Project:	 Portfolio
+	Author:		 Jennifer Quintanilla
+	Updated by:      Jennifer Quintanilla
+	Date:		 1/29/2022
+	Languages:	 HTML5, CSS3, JS5.1
+        Description:     Portfolio Website
 -->
-<html>
+<html lang="en">
     <head>
-        <title>TODO supply a title</title>
+        <title>Jennifer Quintanilla</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jennifer Quintanilla">
+	<meta name="description" content="Jennifer Quintanilla's portfolio.">
+        
+        <style>
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+            .center{
+                position: absolute;
+                left: 50vw;
+                transform: translateX(-50%) translateY(-50%) rotateX(15deg);
+                text-align: center; 
+            }
+            .top {
+                background: lavender;
+            }
+            .middle {
+                background: pink;
+            }
+            .footer {
+                background: lavender;
+            }	
+            nav {
+                margin: 0;
+                overflow: hidden;
+            }
+            nav ul{
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                padding: 0.5em 9.5em;
+                display: inline-block;
+                list-style-type: none;
+            }
+        </style>
+        <script></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+            <div class='top'>
+                <h1>Nice to meet you! I'm Jennifer Quintanilla</h1>
+            </div>
+        </header>
+        <section class='middle'>
+            <h3>Welcome to the Plant Shop</h3>
+            <div>
+                <p>use javascript to make only selected options info appear here.</p> 
+            </div>
+            <div>
+                <p>Line of plants/buttons goes here. Use navbar</p>
+            </div>
+        </section>
+        <footer>
+            <nav class='footer'>
+                <ul>
+                    <li>Last Update: 2022-1-29</li>
+                    <li><a href="mailto:jquintanilla@mcm.edu">Contact Me</a></li>
+                    <li>&copy; Jennifer Quintanilla 2022</li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
